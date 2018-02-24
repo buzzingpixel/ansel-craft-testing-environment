@@ -1,0 +1,18 @@
+{
+    "name": "buzzingpixel/ansel-craft-testing-environment",
+    "description": "Ansel Craft Testing Environment",
+    "license": "proprietary",
+    "homepage": "https://buzzingpixel.com",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0",
+        "craftcms/cms": "^3.0.0-RC1",
+        "vlucas/phpdotenv": "^2.4.0",
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "dev\\": "dev/"
+        }
+    }
+}
