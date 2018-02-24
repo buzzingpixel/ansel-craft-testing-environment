@@ -9,6 +9,11 @@
             "relative": true,
             "map": "/",
             "to": "/home/vagrant/development/"
+        },
+        {
+            "relative": true,
+            "map": "/../ansel-craft",
+            "to": "/home/vagrant/ansel-craft/"
         }
     ],
     "databases": [

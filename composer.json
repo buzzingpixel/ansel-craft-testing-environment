@@ -8,11 +8,20 @@
         "php": ">=7.0.0",
         "craftcms/cms": "^3.0.0-RC1",
         "vlucas/phpdotenv": "^2.4.0",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "buzzingpixel/ansel-craft": "^2.0@alpha"
     },
     "autoload": {
         "psr-4": {
             "dev\\": "dev/"
         }
-    }
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ansel-craft"
+        }
+    ]
 }
