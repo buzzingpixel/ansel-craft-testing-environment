@@ -1,3 +1,10 @@
 {
-    "ip": "192.168.56.102"
+    "ip": "192.168.56.102",
+    "directories": [
+            {
+                "relative": false,
+                "map": "C:\\Users\\tj\\git\\ansel-craft-project\\",
+                "to": "/home/vagrant/development/"
+            }
+        ]
 }
