@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4768aad94c0ce624241a6d65e500f1c1",
+    "content-hash": "5c9a94b6b03172672b82121657095734",
     "packages": [
         {
             "name": "buzzingpixel/ansel-craft",
@@ -3045,6 +3045,60 @@
                 "templating"
             ],
             "time": "2018-03-03T16:23:01+00:00"
+        },
+        {
+            "name": "verbb/super-table",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verbb/super-table.git",
+                "reference": "0817832f4b596393d829b662e57c94a5ac061954"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/0817832f4b596393d829b662e57c94a5ac061954",
+                "reference": "0817832f4b596393d829b662e57c94a5ac061954",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC10"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Super Table",
+                "handle": "super-table",
+                "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+                "schemaVersion": "2.0.4",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "documentationUrl": "https://github.com/verbb/super-table",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/super-table/craft-3/CHANGELOG.md",
+                "class": "verbb\\supertable\\SuperTable"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\supertable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "super table"
+            ],
+            "time": "2018-02-21T09:17:41+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
