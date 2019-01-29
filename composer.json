@@ -6,11 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=7.0.0",
-        "craftcms/cms": "^3.0.0-RC1",
+        "craftcms/cms": "~3.0.0",
         "vlucas/phpdotenv": "^2.4.0",
-        "roave/security-advisories": "dev-master",
-        "buzzingpixel/ansel-craft": "^2.0@alpha",
-        "verbb/super-table": "^2.0"
+        "verbb/super-table": "^2.0",
+        "buzzingpixel/ansel-craft": "^2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
